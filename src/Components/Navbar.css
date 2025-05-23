@@ -1,0 +1,35 @@
+
+.bg-img{
+  background-image: url("../Images/Glowing\ pillars.png");
+  min-height: 300px;
+}
+
+.Navbar {
+  background-color: #282c34;
+  display: flex;
+  font-size: calc(10px + 1.5vmin);
+  color:white;
+  justify-content: center;
+}
+
+
+.Navbar li{
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.Navbar li:hover{
+  background-color:  #0077b5;
+}
+
+.Navbar a{
+  float:leftM
+}
+
+.Logo{
+  height: 46px;
+  margin-top: 25px;
+
+}
+

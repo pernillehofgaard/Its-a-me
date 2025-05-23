@@ -1,0 +1,16 @@
+.App-body{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.App-body p{
+  margin-left:150px;
+  margin-right:150px;
+}
+
+.ProfilePic{
+  border-radius: 25px;
+  height: 300px;
+}

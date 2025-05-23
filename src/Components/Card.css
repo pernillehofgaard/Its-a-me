@@ -1,0 +1,21 @@
+.Card{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  border-radius: 25px;
+  flex-direction: column;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-color: #00c3ff;
+}
+
+.top{
+  color:aliceblue;
+}
+
+.bottom{
+  background-color: #00f7ff;
+  width: 100%;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
