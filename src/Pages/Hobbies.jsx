@@ -4,6 +4,9 @@ import Card from '../Components/Card';
 import hobbies from '../Info files/hobbiesInfo';
 import './Hobbies.css';
 
+
+const top5List = hobbies[3].top5.map((game) => <li>{game.gameTitle}</li>);
+
 export default function Hobbies(){
   return (
     <div className="hobbies">
@@ -13,8 +16,9 @@ export default function Hobbies(){
       </div>
         {hobbies.map((info) =>(
             <Card title={info.title} description={info.description}/>
-
         ))} 
+
+        <Card title="Top 5" description={top5List} />
     </div>
   );
       
