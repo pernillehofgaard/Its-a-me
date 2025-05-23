@@ -1,4 +1,3 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
@@ -7,6 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Hobbies from './Pages/Hobbies';
 import About from './Pages/About';
 import Home from './Pages/Home';
+import Projects from './Pages/Projects';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -22,7 +22,7 @@ root.render(
       <Route path="/About" element={<About/>} />
     </Routes>
     <Routes>
-      <Route path="/Projects" element={<About/>} />
+      <Route path="/Projects" element={<Projects />} />
     </Routes>
     <App />
   </BrowserRouter>

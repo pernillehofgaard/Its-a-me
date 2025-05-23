@@ -1,5 +1,6 @@
 import profilePic from '../Images/Portrett.jpg';
 import Header from '../Components/Header';
+import './About.css';
 
 export default function About(){
   return(
