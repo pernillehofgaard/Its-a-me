@@ -7,7 +7,7 @@ const hobbies =[
   },
   {title: "D&D",
     description: "Pernille plays as a Tiefling Barbarian (NOT inspired by Karlach from Baldurs Gate 3!). The party consists of Pernille aka Lyra. Pernilles twin sister Oda who, surprise surprise, also plays as her twin sister in D&D, known as Sephyra."
-    + "Jon, friend of Pernille since high school, as the bard Idiz. Sander, Odas boyfriend, as the DM. Lastly Lars, a studie buddy of Sander as a Wizard Necromancer."
+    + " Jon, friend of Pernille since high school, as the bard Idiz. Sander, Odas boyfriend, as the DM. Lastly Lars, a studie buddy of Sander as a Wizard Necromancer."
   },
 
   {title: "Gaming",
