@@ -4,12 +4,13 @@ import './Card.css';
 function Card(props){
 return(
   <div className="Card">
-    <div className="top">
+    <div className="Top">
       <h2>{props.title}</h2>
+      <h5>{props.timePeriod}</h5>
     </div>
-    <div className="bottom">
+    <div className="Bottom">
       <p>{props.description}</p>
-      <div className="card-img">
+      <div className="Card-img">
         <img src={props.imgSrc}/>
       </div>
     </div>
