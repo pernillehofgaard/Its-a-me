@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Hobbies from './Pages/Hobbies';
 import About from './Pages/About';
+import Contact from './Pages/Contact';
 import Home from './Pages/Home';
 import Projects from './Pages/Projects';
 
@@ -20,6 +21,9 @@ root.render(
     </Routes>
     <Routes>
       <Route path="/About" element={<About/>} />
+    </Routes>
+    <Routes>
+      <Route path="/Contact" element={<Contact/>} />
     </Routes>
     <Routes>
       <Route path="/Projects" element={<Projects />} />

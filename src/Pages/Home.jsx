@@ -5,7 +5,8 @@ export default function Home(){
     <div>
       <Header />
       <h1>Welcome</h1>
-      <p>This webpage is about Pernille Hofgaard</p>
+      <p>This webpage was developed by <a href="/About"> Pernille Hofgaard</a> to show of her <i><b>insane</b></i> frontend skillz!</p>
+      <p>Developed with React</p>
     </div>
   )
 }

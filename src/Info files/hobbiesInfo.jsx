@@ -3,7 +3,7 @@ const hobbies =[
     description: "One of Pernilles many hobbies are 3D-printing. It may not come as a surprise that she prints D&D related stuff to make the game more immersive."
   },
   {title: "3D-modeling",
-    description: "3D-modeling fits like a glove when you consider that she likes 3D-printing. Pernilles has been using Blender for 3 years and have tried block modelling, animation with geometry nodes and some sculpting. (Sculpting was the least successful project)"
+    description: "3D-modeling fits like a glove when you consider that she likes 3D-printing. Pernille has been using Blender for 3 years and have tried block modelling, animation with geometry nodes and some sculpting. (Sculpting was the least successful project)"
   },
   {title: "D&D",
     description: "Pernille plays as a Tiefling Barbarian (NOT inspired by Karlach from Baldurs Gate 3!). The party consists of Pernille aka Lyra. Pernilles twin sister Oda who, surprise surprise, also plays as her twin sister in D&D, known as Sephyra."

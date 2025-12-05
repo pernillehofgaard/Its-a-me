@@ -1,10 +1,10 @@
 import Header from "../Components/Header";
 import Card from '../Components/Card';
-import hobbies from '../Info files/HobbiesInfo';
+import hobbies from '../Info files/hobbiesInfo';
 import './Hobbies.css';
 
 
-const top5List = hobbies[3].top5.map((game) => <li>{game.gameTitle}</li>);
+const top5List = hobbies[3].top5.map((game) => <ul>{game.gameTitle}</ul>);
 
 export default function Hobbies(){
   return (
